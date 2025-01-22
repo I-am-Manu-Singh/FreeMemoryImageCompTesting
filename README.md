@@ -54,19 +54,20 @@ com.neatroots.image_compression_test
 │   ├── MainActivity.kt                         // Main activity with navigation logic
 │   ├── StringCompression_DEFLATE_TXT_UI.kt     // DEFLATE-based string compression UI for .txt
 │   ├── StringCompression_LZW_TXT_UI.kt         // LZW-based string compression UI for .txt
-│   └── StringCompressionLZW_UI.kt              // LZW-based string compression for strings                             // Utility functions
+│   └── StringCompressionLZW_UI.kt              // LZW-based string compression for strings                            
 ```
 ### How to Use :
 1. Clone the repository
+   
 ```git clone <repository-url>```
 
-2. Open the project in Android Studio.
+3. Open the project in Android Studio.
 
-3. Add the required dependencies to your build.gradle file if not already included.
+4. Add the required dependencies to your build.gradle file if not already included.
 
-4. Run the app on an emulator or a physical device.
+5. Run the app on an emulator or a physical device.
 
-5. Use the app to manage your contacts by adding, editing, and deleting them.
+6. Use the app to manage your contacts by adding, editing, and deleting them.
 
 ### Screenshots & App Demo Video:
 
@@ -74,13 +75,13 @@ com.neatroots.image_compression_test
 
 ### Future Improvements
 
-Add support for additional compression algorithms.
+1. Add support for additional compression algorithms.
 
-Provide a detailed analytics screen to compare compression ratios.
+2. Provide a detailed analytics screen to compare compression ratios.
 
-Implement cloud storage for saving compressed files.
+3. Implement cloud storage for saving compressed files.
 
-Enhance UI/UX for better accessibility.
+4. Enhance UI/UX for better accessibility.
 
 ### License
 
