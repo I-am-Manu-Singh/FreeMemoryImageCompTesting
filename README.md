@@ -36,9 +36,11 @@ Lightweight image loading library for Jetpack Compose.
 
 ### Dependencies Used :
 1. // Coil for image loading
+   
 ```implementation(libs.coil.compose)```
 
 // Kotlin Coroutines for asynchronous operations
+
 ```implementation(libs.kotlinx.coroutines.android)```
 
 ### Project Structure :
@@ -58,7 +60,6 @@ com.neatroots.image_compression_test
 ```
 ### How to Use :
 1. Clone the repository
-   
 ```git clone <repository-url>```
 
 3. Open the project in Android Studio.
