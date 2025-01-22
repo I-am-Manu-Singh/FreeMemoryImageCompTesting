@@ -35,11 +35,11 @@ Provides efficient threading for asynchronous operations like compression/decomp
 Lightweight image loading library for Jetpack Compose.
 
 ### Dependencies Used :
-1. // Coil for image loading
+1. Coil for image loading
    
 ```implementation(libs.coil.compose)```
 
-// Kotlin Coroutines for asynchronous operations
+2. Kotlin Coroutines for asynchronous operations
 
 ```implementation(libs.kotlinx.coroutines.android)```
 
