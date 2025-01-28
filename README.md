@@ -2,37 +2,43 @@
 
 This project demonstrates an Android application that implements both image and string compression and decompression using the DEFLATE and LZW algorithms. The app leverages Kotlin Coroutines for asynchronous operations and the Coil library for efficient image loading.
 
+---
+
 ### Features :
 
 1. Image Compression/Decompression
 
-Compress and decompress image files using DEFLATE and LZW algorithms.
+- Compress and decompress image files using DEFLATE and LZW algorithms.
 
-Includes support for both Lossless and Lossy JPEG to JPEG compression.
+- Includes support for both Lossless and Lossy JPEG to JPEG compression.
 
 2. String Compression/Decompression
 
-Compress and decompress string data and .txt files using DEFLATE and LZW algorithms.
+- Compress and decompress string data and .txt files using DEFLATE and LZW algorithms.
 
-Allows comparison of compressed file sizes to evaluate the efficiency of algorithms.
+- Allows comparison of compressed file sizes to evaluate the efficiency of algorithms.
 
 3. Coroutines for Asynchronous Operations
 
-Utilizes Kotlin Coroutines for smooth, non-blocking execution.
+- Utilizes Kotlin Coroutines for smooth, non-blocking execution.
+
+---
 
 ### Technologies and Libraries Used :
 
 1.  DEFLATE and LZW Algorithms
 
-Core compression techniques for both strings and images.
+-- Core compression techniques for both strings and images.
 
 2. Kotlin Coroutines
 
-Provides efficient threading for asynchronous operations like compression/decompression.
+-- Provides efficient threading for asynchronous operations like compression/decompression.
 
 3. Coil
 
-Lightweight image loading library for Jetpack Compose.
+-- Lightweight image loading library for Jetpack Compose.
+
+---
 
 ### Dependencies Used :
 1. Coil for image loading
@@ -43,9 +49,11 @@ Lightweight image loading library for Jetpack Compose.
 
 ```implementation(libs.kotlinx.coroutines.android)```
 
+---
+
 ### Project Structure :
 
-```
+```yaml
 com.neatroots.image_compression_test
 ├── ui.theme
 │   ├── ImageCompression_DEFLATE_UI.kt             // DEFLATE-based image compression UI
@@ -58,6 +66,9 @@ com.neatroots.image_compression_test
 │   ├── StringCompression_LZW_TXT_UI.kt         // LZW-based string compression UI for .txt
 │   └── StringCompressionLZW_UI.kt              // LZW-based string compression for strings                            
 ```
+
+---
+
 ### How to Use :
 1. Clone the repository
 ```git clone <repository-url>```
@@ -70,9 +81,13 @@ com.neatroots.image_compression_test
 
 6. Use the app to manage your contacts by adding, editing, and deleting them.
 
+---
+
 ### Screenshots & App Demo Video:
 
 (Will upload these soon.)
+
+---
 
 ### Future Improvements
 
@@ -83,6 +98,8 @@ com.neatroots.image_compression_test
 3. Implement cloud storage for saving compressed files.
 
 4. Enhance UI/UX for better accessibility.
+
+---
 
 ### License
 
