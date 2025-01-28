@@ -28,15 +28,15 @@ This project demonstrates an Android application that implements both image and 
 
 1.  DEFLATE and LZW Algorithms
 
--- Core compression techniques for both strings and images.
+- Core compression techniques for both strings and images.
 
 2. Kotlin Coroutines
 
--- Provides efficient threading for asynchronous operations like compression/decompression.
+- Provides efficient threading for asynchronous operations like compression/decompression.
 
 3. Coil
 
--- Lightweight image loading library for Jetpack Compose.
+- Lightweight image loading library for Jetpack Compose.
 
 ---
 
