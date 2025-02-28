@@ -85,7 +85,7 @@ com.neatroots.image_compression_test
 
 ### Screenshots & App Demo Video:
 
-(Will upload these soon.)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3xV5ayFXEbk/0.jpg)](https://www.youtube.com/watch?v=3xV5ayFXEbk)
 
 ---
 
